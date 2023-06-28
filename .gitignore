@@ -24,3 +24,7 @@ system.json
 # file for small script tries
 tmp*
 *tmp*.mb
+
+# generated dataset and log info
+outputs
+logs

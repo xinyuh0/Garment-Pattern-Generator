@@ -19,8 +19,8 @@ def load_plugin():
         Note that plugin should be installed and licensed to use it!
         Inquire here: http://www.fxgear.net/vfxpricing
     """
-    maya_year = int(mel.eval('getApplicationVersionAsFloat'))
-    plugin_name = 'qualoth_' + str(maya_year) + '_x64'
+    # maya_year = int(mel.eval('getApplicationVersionAsFloat'))
+    plugin_name = 'qualoth'
     print('Loading ', plugin_name)
 
     cmds.loadPlugin(plugin_name)

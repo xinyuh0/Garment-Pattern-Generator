@@ -59,7 +59,7 @@ if __name__ == "__main__":
 
     command_args = get_command_args()
 
-    system_config = customconfig.Properties('../system.json')  # Make sure it's in \Autodesk\MayaNNNN\
+    system_config = customconfig.Properties('./system.json')  # Make sure it's in \Autodesk\MayaNNNN\
     path = system_config['templates_path']
 
     # ------ Dataset ------
